@@ -1,0 +1,99 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    background-color: #000000;
+    color: white;
+  }
+    
+  .navbar-logo img {
+    height: 300px;
+  }
+    
+  .sign-up-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }  
+  
+  .sign-up-page h1 {
+    margin-bottom: 40px;
+    align-self: flex;
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position: relative;
+    right: 25%;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 140%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0px;
+    border: 1px solid #b4b1b1;
+    background-color: #bebcbc;
+  }
+  
+  .btn-primary {
+    width: 60%;
+    position: relative;
+    left: 20%;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    background-color: #080808;
+    color: #FFFFFF;
+  }
+  
+  /* #signup:hover {
+    background-color: #545455;
+  } */
+  
+  .login-container {
+    position: absolute;
+    bottom: 90px;
+    left: 45%;
+    font-weight: bold;
+    margin-top: 5vh;
+  }
+
+  /* Styling for the message input field */
+  input[type="password"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+
+  /* Styling for the message input field */
+  input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+
+  /* Styling for the message input field */
+  input[type="username"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+  

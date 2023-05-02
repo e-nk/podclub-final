@@ -1,0 +1,129 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  background-color: #000000;
+  color: white;
+}
+
+.navbar-logo img {
+  height: 300px;
+}
+  
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.login-page h1 {
+  margin-bottom: 0;
+  align-self: flex;
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  right: 25%;
+  font-weight: bold;
+}
+
+.form-check-label {
+  margin-left: 5px;
+}
+
+.forgot-password {
+  margin-top: 50px;
+  margin-bottom: 5;
+  position: relative;
+  left: 25%;
+  font-weight: bold;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  left: 25%;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 140%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0px;
+  border: 1px solid #9b9898;
+  background-color: #bebcbc;
+}
+
+.btn-primary {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: center;
+  border-radius: 30px;
+  border: none;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color:  white !important;
+  color: black;
+}
+
+.sign-up-container {
+  position: absolute;
+  justify-content: center;
+  /* bottom: 150px; */
+  left: 47%;
+  font-weight: bold;
+  /* margin-top: 50px; */
+  /* margin-bottom: 10vh; */
+}
+
+.btn-signup {
+  position: absolute;
+  bottom: 337px;
+  /* left: 44%; */
+  width: 5%;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 30px;
+  font-size: 10px;
+  justify-content: center;
+  font-weight: bold;
+  border: none;
+  background-color: blue;
+  color: #FFFFFF;
+}
+
+.btn-signup:hover {
+  background-color: white !important;
+  color: #000000;
+}
+
+/* .line {
+  border-top: 2px solid #000000;
+  width: 400%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 150%;
+  margin-top: 70px;
+  margin-bottom: 20px;
+} */
+
