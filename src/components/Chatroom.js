@@ -35,7 +35,7 @@ export default class Chatroom extends Component {
   }
 
   fetchChatrooms() {
-    axios.get("http://localhost:3000/chatroom", { withCredentials: true })
+    axios.get("https://podclub-backend.onrender.com/chatroom", { withCredentials: true })
       .then(response => {
         this.setState({
           chatrooms: response.data,
@@ -69,7 +69,7 @@ export default class Chatroom extends Component {
     event.preventDefault();
     const { newChatroomName, newChatroomDescription } = this.state;
     const chatroom = { name: newChatroomName, description: newChatroomDescription };
-    axios.post("http://localhost:3000/chatroom", chatroom, { withCredentials: true })
+    axios.post("https://podclub-backend.onrender.com/chatroom", chatroom, { withCredentials: true })
       .then(response => {
         this.setState({
           chatrooms: [...this.state.chatrooms, response.data],
@@ -86,7 +86,7 @@ export default class Chatroom extends Component {
   }
 
   handleChatroomDelete(chatroomId) {
-    axios.delete(`http://localhost:3000/chatroom/${chatroomId}`, { withCredentials: true })
+    axios.delete(`https://podclub-backend.onrender.com/chatroom/${chatroomId}`, { withCredentials: true })
       .then(response => {
         const updatedChatrooms = this.state.chatrooms.filter(chatroom => chatroom.id !== chatroomId);
         this.setState({
@@ -105,7 +105,7 @@ export default class Chatroom extends Component {
     event.preventDefault();
     const { updateChatroomName, updateChatroomDescription, chatroomId} = this.state;
     const updatedChatroom = { name: updateChatroomName, description: updateChatroomDescription };
-    axios.put(`http://localhost:3000/chatroom/${chatroomId}`, updatedChatroom, { withCredentials: true })
+    axios.put(`https://podclub-backend.onrender.com/chatroom/${chatroomId}`, updatedChatroom, { withCredentials: true })
     .then(response => {
     const updatedChatrooms = this.state.chatrooms.map(chatroom => {
     if (chatroom.id === response.data.id) {
@@ -164,7 +164,7 @@ export default class Chatroom extends Component {
               <button class="btn btn-danger me-md-2" onClick={() => this.handleChatroomDelete(chatroom.id)}>Delete</button>
               <button class="btn btn-info me-md-2" onClick={() => this.setState({ chatroomIdToUpdate: chatroom.id })}>Update</button>
               {/* <button class="btn btn-secondary me-md-2" onClick={() => this.handleViewChatroom(chatroom.id)}>View</button> */}
-              <a href="localhost:3002/rooms/1" class="btn btn-secondary me-md-2">View</a>
+              <a href="https://podclub-frontend.onrender.com/rooms/1" class="btn btn-secondary me-md-2">View</a>
 
 
               </div>

@@ -17,7 +17,7 @@ export default class Navbar extends Component {
 
   handleLogoutClick() {
     axios
-      .delete("http://localhost:3000/logout", { withCredentials: true })
+      .delete("https://podclub-backend.onrender.com/logout", { withCredentials: true })
       .then(response => {
         this.props.handleLogout();
         this.props.history.push("/login");

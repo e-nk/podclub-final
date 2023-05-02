@@ -8,7 +8,7 @@ function Messaging({ chatroomId }) {
   useEffect(() => {
     // Make a GET request to fetch messages for this chatroom
     axios
-      .get(`http://localhost:3000/messages/${chatroomId}`, { withCredentials: true })
+      .get(`https://podclub-backend.onrender.com/messages/${chatroomId}`, { withCredentials: true })
       .then((response) => {
         setMessages(response.data);
       })
@@ -28,7 +28,7 @@ function Messaging({ chatroomId }) {
       chatroom_id: chatroomId,
     };
     axios
-      .post('http://localhost:3000/message', newMessage, { withCredentials: true })
+      .post('https://podclub-backend.onrender.com/message', newMessage, { withCredentials: true })
       .then((response) => {
         console.log(response.data);
         // Add the new message to the list of messages

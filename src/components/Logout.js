@@ -16,7 +16,7 @@ export default class Logout extends Component {
     
       handleLogoutClick() {
         axios
-          .delete("https://chat-room-ig50.onrender.com/logout", { withCredentials: true })
+          .delete("https://podclub-backend.onrender.com/logout", { withCredentials: true })
           .then(response => {
             this.props.handleLogout();
           })
