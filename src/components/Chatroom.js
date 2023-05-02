@@ -164,7 +164,7 @@ export default class Chatroom extends Component {
               <button class="btn btn-danger me-md-2" onClick={() => this.handleChatroomDelete(chatroom.id)}>Delete</button>
               <button class="btn btn-info me-md-2" onClick={() => this.setState({ chatroomIdToUpdate: chatroom.id })}>Update</button>
               {/* <button class="btn btn-secondary me-md-2" onClick={() => this.handleViewChatroom(chatroom.id)}>View</button> */}
-              <a href="https://podclub-frontend.onrender.com/rooms/1" class="btn btn-secondary me-md-2">View</a>
+              <a href="localhost:3002/rooms/1" class="btn btn-secondary me-md-2">View</a>
 
 
               </div>
