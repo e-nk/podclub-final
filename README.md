@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+## Description
+This repo represents the frontend functionality of a Podclub App.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation
+### Requirements
+In order for you to use the content on this repo ensure you have the following:
+
+A computer that runs on either of the following; (Windows 7+, Linux, Mac OS).
+
+nodejs 9.0+
+Visual Studio Code.
+Live server extension.
+### Link to webpage
+
+        (https://podclub.netlify.app/login)
+
+### Link to db (backend)
+
+      https://chat-room-ig50.onrender.com/
+
+#### Alternative One
+Open a terminal / command line interface on your computer.
+
+Clone the repo by using the following to create a copy on your local machine:
+
+      git clone git@github.com:pod-club/pod-club.git
+
+Change directory to the repo folder:
+
+      cd pod-club
+
+Open it in Visual Studio Code
+
+      code .
+
+#### Alternative Two
+On the top right corner of this page there is a button labelled Fork.
+
+Click on the button to fork the repo to your own account.
+
+Follow the process in Alternative One above.
+
+Remember to replace your username when cloning.
+
+          git clone https://github.com/your-username-here/pod-club
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### npm i
+
+This will install the dependancies
+
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Running the application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the application, you can use the following steps to run the app.
 
-### `npm run build`
+Run;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - npm install (to install required dependancies).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - npm start (follow the link provided to open the application on your browser).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Deliverables
+A user should be able to:
 
-### `npm run eject`
+- register / login to the application.
+- Create a group channel. (Max 5 channels at a time)
+- Update description of group channel.
+- Delete a group channel.
+- Send invite links to people to join their group channel.
+- Add a message to the group chat.
+- Update / Delete message from the group chat.
+- Reply to other members’ messages in the group chat.
+- Send image messages to a group chat.
+- Join multiple channels upon invite.
+- Report an offensive / abusive user.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Author
+      Enock Kipkoech
+      Zamil Mozamil Sheikh
+      Amina Hagi
+      Ernest Hanson
+      Asha Mohamed
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### License
+      MIT
