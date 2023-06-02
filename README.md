@@ -1,6 +1,10 @@
 ## Description
 This repo represents the frontend functionality of a Podclub App.
 
+Link to backend repo
+        
+        https://github.com/e-nk/pod-backend
+
 ## Installation
 ### Requirements
 In order for you to use the content on this repo ensure you have the following:
